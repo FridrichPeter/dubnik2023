@@ -1,0 +1,46 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('bg3.png'); /* Replace 'your-background-image.jpg' with your image file path */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Keep the image fixed while scrolling */
+    background-color: rgba(0, 0, 0, 0.1); /* Black background with 0% opacity */
+    color: white; /* Text color */
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.countdown {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    font-weight: bold; /* Make the countdown text bold */
+}
+
+.countdown span {
+    margin: 0 10px;
+}
+
+.countdown-labels {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Style the image */
+img {
+    max-width: 30%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+
+
