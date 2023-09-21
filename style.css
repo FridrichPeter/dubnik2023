@@ -22,7 +22,8 @@ body {
     display: flex;
     flex-direction: row;
     font-size: 2rem;
-    font-weight: bold; /* Make the countdown text bold */
+    font-weight: bold;
+    color: pink; 
 }
 
 .countdown span {
@@ -41,6 +42,14 @@ img {
     margin-top: 20px;
 }
 
+.custom-text {
+    color: red; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 20px; 
+   
+}
 
 
 
