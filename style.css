@@ -1,14 +1,9 @@
-
-
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('bg3.png'); /* Replace 'your-background-image.jpg' with your image file path */
-    background-size: cover; /* Cover the entire viewport */
-    background-repeat: no-repeat; /* Prevent image repetition */
-    background-attachment: fixed; /* Keep the image fixed while scrolling */
-    background-color: rgba(0, 0, 0, 0.1); /* Black background with 0% opacity */
+    background-color: rgba(0, 0, 0, 0.1); /* Black background with 10% opacity */
     color: white; /* Text color */
+    overflow: hidden; /* Optional: Prevents scrolling to see the whole video background */
 }
 
 .countdown-container {
@@ -16,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    z-index: 100; /* Ensure content is above the video background */
 }
 
 .countdown {
@@ -48,7 +44,4 @@ p {
     font-weight: bold; 
     text-align: center; 
     margin-top: 20px; 
-   
 }
-
-
