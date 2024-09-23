@@ -12,7 +12,7 @@ body {
     position: relative; /* Needed for proper video positioning */
 }
 
-video {
+#myVideo {
     position: fixed; /* Ensures the video stays in place during scrolling */
     top: 50%; /* Centers the video vertically */
     left: 50%; /* Centers the video horizontally */
@@ -70,4 +70,18 @@ p {
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
+}
+
+#audio-control {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 200;
 }
