@@ -1,15 +1,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- Linking to local CSS file -->
     <title>chata</title>
 </head>
 
 <body>
-    <video autoplay muted loop playsinline style="position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; z-index: -100;">
+    <video id="myVideo" autoplay muted loop playsinline style="position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; z-index: -1;">
         <source src="movie_size.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+    <button id="audio-control">Zapni ma</button>
     <div class="countdown-container">
         <div class="countdown">
             <span id="days">00</span>
@@ -25,6 +26,8 @@
         </div>
         <img src="IMG_2900.GIF" alt="My Image">
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
     <script src="muted.js"></script>
 </body>
