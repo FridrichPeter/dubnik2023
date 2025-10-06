@@ -1,5 +1,5 @@
 // Set the target date for the countdown (YYYY-MM-DD HH:MM:SS format)
-const targetDate = new Date("2024-10-25 08:59:59").getTime();
+const targetDate = new Date("2025-10-24 08:59:59").getTime();
 
 const countdown = () => {
     const now = new Date().getTime();
@@ -26,3 +26,4 @@ countdown();
 
 // Update the countdown every second
 const timer = setInterval(countdown, 1000);
+
